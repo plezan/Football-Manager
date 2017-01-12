@@ -1,12 +1,27 @@
-<h1>FOOTBALL MANAGER</h1>
-
-<link rel="stylesheet" type="text/css" href="footballmanager.css">
-<img src="ballon.jpg">
+<link rel="stylesheet" type="text/css" href="root/css/footballmanager.css">
 
 <?php 
-	require_once('database.php');
-	$instanceBDD = BDD::getInstance();
-	$requete = $instanceBDD->bdd->query("SELECT * FROM players");
-	$resultat = $requete->fetchAll();
-	return $resultat;
+
+require_once('controllers/HomeController.php');
+
+if(isset($_GET['page']))
+{
+	if($_GET['page'] == 0)
+	{
+		$home = new HomeController();
+		$home->homepage();
+	}
+}
+
+
 ?>
+
+<div style="clear:both;"></div>
+</div>
+ 
+<div id="footer">
+<hr>
+<a href="index.php?page=0">Accueil du site</a><br>
+Copyright FootballManager.imie<br>
+All rights reserved LOL
+</div>
