@@ -95,5 +95,16 @@ INSERT INTO Player VALUES
 (10,"Coentrão",28,"male",15,80,"defender","COENTRAO.jpg",1),
 (11,"Danilo",25,"male",23,79,"defender","DANILO.jpg",1),
 (12,"Kroos",27,'male',8,86,"midfielder","KROOS.jpg",1),
-(13,"James Rodríguez",25,"male",10,87,"midfielder","JAMES.jpg",1)
+(13,"James Rodríguez",25,"male",10,87,"midfielder","JAMES.jpg",1),
+(14,"Casemiro",24,"male",14,80,"midfielder","CASEMIRO.jpg",1),
+(15,"Kovacic",22,"male",16,80,"midfielder","KOVACIC.jpg",1),
+(16,"Modric",31,"male",19,89,"midfielder","MODRIC.jpg",1),
+(17,"Asensio",20,"male",20,81,"midfielder","MARCO-ASENSIO.jpg",1),
+(18,"Isco",24,"male",22,84,"midfielder","ISCO.jpg",1),
+(19,"Ronaldo",31,"male",7,94,"striker","CRISTIANO.jpg",1),
+(20,"Benzema",29,"male",9,87,"striker","BENZEMA.jpg",1),
+(21,"Bale",27,"male",11,90,"striker","BALE.jpg",1),
+(22,"Lucas Vázquez",25,"male",17,78,"striker","LUCAS-VAZQUEZ.jpg",1),
+(23,"Mariano",23,"male",18,68,"striker","MARIANO.jpg",1),
+(24,"Morata",24,"male",24,83,"striker","MORATA.jpg",1)
 ;
