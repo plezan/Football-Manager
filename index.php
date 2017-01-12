@@ -8,8 +8,7 @@
 
 require_once('controllers/HomeController.php');
 
-$home = new HomeController();
-$home->homepage();
+
 
 ?><h2>LE JEU EST EN COURS EN DEVELOPPEMENT...</h2><?php
 
@@ -17,10 +16,12 @@ $home->homepage();
 if(isset($_GET['page']))
 {
 	if($_GET['page'] == 0){ //MAIN MENU
-
+		$home = new HomeController();
+		$home->homepage();
 	}
 	if($_GET['page'] == 1){ //LISTE EQUIPE
-
+		$players = new HomeController();
+		$players->display_player();
 	}
 }
 

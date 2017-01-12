@@ -7,6 +7,7 @@ class ArticleModel
 		require_once('classes/database.php');
 
 		$instanceBDD = BDD::getInstance();
+		$query = "SELECT * FROM player";
 
 		$requete = $instanceBDD->bdd->query($query);
 		$resultat = $requete->fetchAll();
