@@ -106,5 +106,14 @@ INSERT INTO Player VALUES
 (21,"Bale",27,"male",11,90,"striker","BALE.jpg",1),
 (22,"Lucas Vázquez",25,"male",17,78,"striker","LUCAS-VAZQUEZ.jpg",1),
 (23,"Mariano",23,"male",18,68,"striker","MARIANO.jpg",1),
-(24,"Morata",24,"male",24,83,"striker","MORATA.jpg",1)
+(24,"Morata",24,"male",24,83,"striker","MORATA.jpg",1),
+(25,"Ter Stegen",24,"male",1,83,"goal keeper","TER-STERGEN.jpg",2),
+(26,"Piqué",29,"male",3,86,"defender","PIQUE.jpg",2),
+(27,"I. Rakitic",28,"male",4,87,"midfielder","RAKITIC.jpg",2),
+(28,"Sergio",28,"male",5,87,"midfielder","BUSQUETS.jpg",2),
+(29,"Denis Suárez",23,"male",6,80,"midfielder","DENIS-SUAREZ.jpg",2),
+(30,"Arda",29,"male",7,84,"midfielder","ARDA.jpg",2),
+(31,"A. Iniesta",32,"male",8,89,"midfielder","INIESTA.jpg",2),
+(32,"Suárez",29,"male",9,91,"striker","SUAREZ.jpg",2)
+
 ;
