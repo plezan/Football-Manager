@@ -11,7 +11,7 @@ class HomeController
 	{
 		require_once('models/ArticleModel.php');
 		$modelPlayers = new ArticleModel();
-		$listePlayer = $modelPlayers->listArticles();
+		$listePlayer = $modelPlayers->listPlayer();
 
 		require_once("view/description/player_description.php");
 	}

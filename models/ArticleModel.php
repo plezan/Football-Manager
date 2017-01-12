@@ -1,7 +1,7 @@
 <?php  
 class ArticleModel
 {
-	public function listArticles()
+	public function listPlayer()
 	{
 		//Je me co a la bdd
 		require_once('classes/database.php');
