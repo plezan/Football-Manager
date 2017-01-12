@@ -1,4 +1,10 @@
-body{
-	text-align: center;
-	background-color: 4242442;
+body
+{
+	background-color: #04ff00; /*vert fluo bien degueu... pour le rouge : #ff0000 */
+    color: white;
+
+    text-transform: uppercase;
+
+    margin-left: 300px;
+    margin-right: 300px;
 }

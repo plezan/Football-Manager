@@ -10,7 +10,7 @@ require_once('controllers/HomeController.php');
 
 
 
-?><h2>LE JEU EST EN COURS EN DEVELOPPEMENT...</h2><?php
+?><h2>WORK IN PROGRESS...</h2><?php
 
 
 if(isset($_GET['page']))
