@@ -1,15 +1,27 @@
 <link rel="stylesheet" type="text/css" href="root/css/footballmanager.css">
 
+<h1>FootballManager.imie</h1>
+<h2>Description du site...</h2>
+<img src="root/img/ballon.gif" style="width : 120px;height: 100px;">
+
 <?php 
 
 require_once('controllers/HomeController.php');
 
+
+
+?><h2>WORK IN PROGRESS...</h2><?php
+
+
 if(isset($_GET['page']))
 {
-	if($_GET['page'] == 0)
-	{
+	if($_GET['page'] == 0){ //MAIN MENU
 		$home = new HomeController();
 		$home->homepage();
+	}
+	if($_GET['page'] == 1){ //LISTE EQUIPE
+		$players = new HomeController();
+		$players->display_player();
 	}
 }
 
