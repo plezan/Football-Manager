@@ -2,8 +2,8 @@
 #        Script MySQL.
 #------------------------------------------------------------
 
-DROP DATABASE IF EXISTS footballManager;
-CREATE DATABASE IF NOT EXISTS footballManager;
+DROP DATABASE IF EXISTS FootballManager;
+CREATE DATABASE IF NOT EXISTS FootballManager;
 
 USE footballManager;
 #------------------------------------------------------------
